@@ -43,19 +43,19 @@ body {
 }
 
 .opaque1 {
-	background-image: url(images/b);
+	background-image: url(images/bill.png);
 }
 .opaque2 {
-	background-image: url(images/f.png);
+	background-image: url(images/fred.png);
 }
 .opaque3 {
-	background-image: url(images/p.png);
+	background-image: url(images/paul.png);
 }
 .opaque4 {
-	background-image: url(images/l.png);
+	background-image: url(images/lion.png);
 }
 .opaque5 {
-	background-image: url(images/m);
+	background-image: url(images/mav.png);
 }
 
 @media only screen and (max-width : 800) {
