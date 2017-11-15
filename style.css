@@ -1,0 +1,69 @@
+/* https://paddle8.com/work/ellsworth-kelly/78782-color-squares-4/ */
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background-image:url(https://wallpaperscraft.com/image/forest_trees_fog_110131_1920x1080.jpg);
+	display: center
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	height: inherit;
+}
+
+.box {
+	height: 8.5vw;
+	width: 8.5vw;
+	margin: 5px;
+}
+
+.dark_green {
+	background-color: #228B22;
+}
+
+.dark_blue {
+	background-color: #191970;
+}
+
+.white {
+	background-color: #FFF5EE;
+}
+
+.green {
+	background-color: #6B8E23;
+}
+
+.light_green {
+	background-color: #008080;
+}
+
+.opaque1 {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Louis_Armstrong_%281955%29.jpg/220px-Louis_Armstrong_%281955%29.jpg);
+}
+.opaque2 {
+	background-image: url(image/freddie.png);
+}
+.opaque3 {
+	background-image: url(images/paul.png);
+}
+.opaque4 {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Al_Green_1973.jpg/200px-Al_Green_1973.jpg);
+}
+.opaque5 {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdiyuX63xHKzXBC-8ZuV91IqzKLGW95A0kcBX33g38ohy8hzLq);
+}
+
+@media only screen and (max-width : 800) {
+	.box {
+		
+	height: 19vw;
+	width: 19vw;
+	margin: 10px;
+	}
+	
+}
