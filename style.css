@@ -43,19 +43,19 @@ body {
 }
 
 .opaque1 {
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Louis_Armstrong_%281955%29.jpg/220px-Louis_Armstrong_%281955%29.jpg);
+	background-image: url(images/b);
 }
 .opaque2 {
-	background-image: url(image/freddie.png);
+	background-image: url(images/f.png);
 }
 .opaque3 {
-	background-image: url(images/paul.png);
+	background-image: url(images/p.png);
 }
 .opaque4 {
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Al_Green_1973.jpg/200px-Al_Green_1973.jpg);
+	background-image: url(images/l.png);
 }
 .opaque5 {
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdiyuX63xHKzXBC-8ZuV91IqzKLGW95A0kcBX33g38ohy8hzLq);
+	background-image: url(images/m);
 }
 
 @media only screen and (max-width : 800) {
