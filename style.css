@@ -5,6 +5,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	background-image:url(https://wallpaperscraft.com/image/forest_trees_fog_110131_1920x1080.jpg);
+	background-size:100%;
 	display: center
 }
 
@@ -17,8 +18,8 @@ body {
 }
 
 .box {
-	height: 8.5vw;
-	width: 8.5vw;
+	height: 9vw;
+	width: 9vw;
 	margin: 5px;
 }
 
@@ -44,26 +45,32 @@ body {
 
 .opaque1 {
 	background-image: url(images/bill.png);
+	background-size: 102%;
 }
 .opaque2 {
 	background-image: url(images/fred.png);
+	background-size: 106.5%;
 }
 .opaque3 {
 	background-image: url(images/paul.png);
+	background-size: 100%;
 }
 .opaque4 {
 	background-image: url(images/lion.png);
+	background-size: 102%;
 }
 .opaque5 {
 	background-image: url(images/mav.png);
+	background-size: 100%;
 }
 
 @media only screen and (max-width : 800) {
 	.box {
-		
 	height: 19vw;
 	width: 19vw;
 	margin: 10px;
 	}
-	
+	.flex-container{
+	display: block;	
+	}
 }
